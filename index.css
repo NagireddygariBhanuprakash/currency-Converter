@@ -1,0 +1,34 @@
+
+.currency-converter {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: rgb(61, 139, 68);
+  color: rgb(24, 206, 191);
+}
+
+.input-fields {
+  flex-direction: column;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: start;
+}
+
+.input-fields input,
+.input-fields select {
+  width: 100%;
+  padding: 8px;
+}
+
+.button {
+  display: grid;
+  place-content: center;
+}
+.button > button {
+  padding: 8px;
+}
